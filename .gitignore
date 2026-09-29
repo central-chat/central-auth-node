@@ -1,0 +1,5 @@
+node_modules/
+*.tgz
+# Una sola dependencia, ya fijada en package.json: un lockfile sería una
+# segunda fuente de verdad.
+package-lock.json

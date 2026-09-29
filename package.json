@@ -1,0 +1,38 @@
+{
+  "name": "@centralchat/central-auth",
+  "version": "0.1.0",
+  "description": "Mints Central App Entry tokens from the key file the console downloads — server side only",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/central-chat/central-auth-node.git"
+  },
+  "homepage": "https://central.chat",
+  "keywords": [
+    "central",
+    "chat",
+    "jwt",
+    "jwe",
+    "auth"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "jose": "^5.9.6"
+  }
+}
